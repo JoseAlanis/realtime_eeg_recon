@@ -1,0 +1,17 @@
+numpy
+scipy
+torch
+torchvision
+pylsl
+mne
+einops>=0.6.0
+reformer-pytorch
+diffusers>=0.31.0
+transformers>=4.44.0,<5
+accelerate>=0.33.0
+safetensors>=0.4.3
+huggingface_hub>=0.20.0
+pillow
+tqdm
+fastapi>=0.115.0
+uvicorn>=0.30.0

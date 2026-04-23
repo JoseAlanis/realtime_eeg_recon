@@ -1,0 +1,36 @@
+# Core dependencies
+pylsl
+numpy
+scipy
+torch
+torchvision
+
+# EEG processing
+mne
+mne-bids
+
+# Model export (optional)
+onnx
+onnxruntime
+onnxsim  # optional
+tensorrt  # optional, requires NVIDIA GPU
+
+# Dataset download (optional)
+openneuro-py  # for downloading THINGS EEG2 dataset
+
+# NICE pretrained encoder
+einops>=0.6.0
+huggingface_hub>=0.20.0
+open_clip_torch>=2.20.0  # CLIP feature extraction for training
+
+# Diffusion decoder (SDXL lightweight conditioning)
+diffusers>=0.31.0
+transformers>=4.44.0
+accelerate>=0.33.0
+safetensors>=0.4.3
+
+# Image processing
+pillow
+
+# Utilities
+tqdm

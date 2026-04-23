@@ -1,4 +1,4 @@
-# Maryam Realtime V1
+# Realtime V1
 
 This project is a first V1 assembly of the live EEG streaming runtime and the hierarchical reconstruction models.
 
